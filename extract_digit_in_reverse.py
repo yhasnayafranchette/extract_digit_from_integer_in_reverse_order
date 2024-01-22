@@ -8,3 +8,6 @@ def reverse_digits(number):
 #Print each digit with space separating them
     result = ' '.join(reversed_string)
     print(result)
+
+input_number = 7536
+reverse_digits(input_number)
